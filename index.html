@@ -1,0 +1,359 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Giselle Abbas</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS-Filer -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" media="mediatype and|not|only (media feature)" href="style.css">
+<!-- END CSS-Filer -->
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<!-- END Google Fonts -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<!-- SCRIPT FÖR PRISER -->
+<script>
+$(document).ready(function () {
+	
+	$('#toggle-dropdown li').click(function () {
+
+		var text = $(this).children('div.panel');
+
+		if (text.is(':hidden')) {
+			text.slideDown('100');	
+		} else {
+			text.slideUp('100');	
+		}
+		
+	});
+
+});
+</script>
+<!-- END SCRIPT FÖR PRISER -->
+
+
+<body>
+
+<script>
+$(window).scroll(function() {
+    if($(this).scrollTop()>5) {
+        $( ".navbar-me" ).addClass("fixed-me");
+    } else {
+        $( ".navbar-me" ).removeClass("fixed-me");
+    }
+});
+</script>
+
+
+
+<nav class="navbar navbar-default navbar-me">
+  <div class="container-fluid ">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed menu-collapsed-button" data-toggle="collapse" data-target="#navbar-primary-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand site-logo" href="#"><span style="font-weight: 300;">G I S E L L E</span><b> A B B A S</b></a>
+    </div>
+      
+      <div class="collapse navbar-collapse navbar-right  header-right-menu" id="navbar-primary-collapse">
+            <ul class="nav navbar-nav">
+            <li class="page-scroll">
+                        <a class="header" href="javascript:" id="tjanster">TJÄNSTER</a>
+                    </li>
+                    <li>
+                        <a class="" href="javascript:" id="inspirationsbrev">INSPIRATIONSBREV</a>
+                    </li>
+                    <li>
+                        <a class="" href="javascript:" id="omoss">OM GISELLE</a>
+                    </li>
+                    <li>
+                        <a class="" href="javascript:" id="kontakt">KONTAKT</a>
+                    </li>
+                </ul>
+         </div><!-- /.navbar-collapse -->
+  </div>
+ </nav>
+</section>
+<!-- end of navbar-->
+
+
+
+<!-- SCRIPT FÖR SMOOTH-SCROLL -->
+<script>
+$("#tjanster").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#mytjanster").offset().top
+    }, 2000);
+});
+</script>
+
+<script>
+$("#referenser").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#myreferenser").offset().top
+    }, 2000);
+});
+</script>
+
+<script>
+$("#omoss").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#myomoss").offset().top
+    }, 2000);
+});
+</script>
+
+<script>
+$("#kontakt").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#mykontakt").offset().top
+    }, 2000);
+});
+</script>
+
+<script>
+$("#inspirationsbrev").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#myinspirationsbrev").offset().top
+    }, 2000);
+});
+</script>
+<!-- END SCRIPT FÖR SMOOTH-SCROLL -->
+
+
+
+<!-- JUMBOTRON -->
+<div class="jumbotron nopadding">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-7 jumbotron-img nopadding"></div>
+			<div class="col-lg-5 nopadding jumbotron-text">
+			
+				<h1><span style="color:#53c4b9">GISELLE</span> ABBAS</h1>
+				<p>- FRAMGÅNG BÖRJAR ALLTID <b>INIFRÅN</b> DIG SJÄLV</p>
+				<p><a class="jumbotron-button" role="button">LÄS MER</a></p>
+			
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END JUMBOTRON -->
+
+
+<!-- ABOUT -->
+
+<section>
+
+	<div class="about-style nopadding" id="myomoss">
+		<div class="container">
+		
+			<h1 class="referens-rub"><b>OM GISELLE</b></h1> 
+			<hr>
+			
+			<div class="col-lg-12"><img src="img/img-giselle-round.png" /></div>
+			
+				<div class="col-lg-12 col-md-12 nopadding">
+					<div class="about-text">
+					<i><b>Giselle Abbas</b> har mångårig erfarenhet som föreläsare och rådgivare. Redan som 18 åring så föreläste Giselle om psykisk ohälsa, självkänsla samt självförtroende i skolor. Sedan dess så har hon föreläst för många olika målgrupper inom olika ämnen samt arbetat med coachning.
+					Giselle brinner för att hjälpa människor med sin egen utveckling. Hon har en stark tro på individens potential och engagerar sig helhjärtat i sitt arbete med människor.</i> 
+				</div>
+				</div>
+		
+		</div>
+	</div>
+
+</section>
+
+<!-- END ABOUT -->
+
+<!-- TJANSTER -->
+
+<section>
+
+	<div class="tjanster-style nopadding" id="mytjanster">
+	
+		<div class="container">
+			
+			<h1 class="tjanster-rub">TJÄNSTER</h1>
+			<hr>
+			
+			<div class="col-lg-6 col-md-12 mar-bot">
+			
+				<img src="img/icon-forelasning.png"/>
+			
+				<h1 class="tjanster-title">Föreläsningar</h1>
+				<p class="tjanster-text">
+				
+					Framgång förknippas oftast med det materiella. Giselles definition av framgång är att du lever det liv Du vill leva, ett liv du känner dig tillfreds med och som skapar en känsla av frihet. 
+					Giselle tror starkt på att framgången börjar inifrån oss själva och hjälper dig att finna dem inre blockeringarna som hindrar dig från att nå dina mål och leva det liv du önskar att leva samt finna dina resurser!
+					<br>Är du redo att satsa på Dig? </p>
+					<p><a class="jumbotron-button" role="button">KONTAKTA MIG</a></p>
+				
+			</div>
+			
+			<div class="col-lg-6 col-md-12 mar-bot">
+			
+				<img src="img/icon-coaching.png"/>
+				
+				<h1 class="tjanster-title">Coachning</h1> 
+				
+				<p class="tjanster-text">
+				
+					Tänk dig att skapa en verklighet du trivs med? 
+					En verklighet du inte vill fly ifrån. En verklighet som innebär en längtan efter att vakna varje dag! 
+					Giselle erbjuder coachning i grupp samt individuellt. 
+					Det är viktigt för Giselle att vara tillgänglig och erbjuder därför, förutom personligt möte, coachning via skype, <br>telefon och genom mejl <br>- Du väljer! 
+				</p>
+				<p><a class="jumbotron-button" type="button" role="button">KONTAKTA MIG</a></p>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!-- END TJANSTER -->
+
+
+<!-- REFERENS -->
+<section>
+
+	<div class="referens-style" id="myreferenser"> 
+	
+		<div class="container">
+			
+			<h1 class="referens-rub">REFERENSER</b>
+			<hr class="hr-white">
+			<p class="referens-slogger">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			
+				<div class="col-lg-6">
+					<div class="referens-area">
+				
+						<p><i><b>"</b> Det är en fröjd att ha med Giselle att göra. Jag har sällan träffat en person med så pass ung ådra som är så professionell och genuint intresserad av kunden i fråga. När Giselle för talan når hon alltid in på djupet och berör med sitt karismatiska sätt. Hon är en förebild och fantastisk föreläsare, inspiratör och person av rang som jag kommer fortsätta boka till våra arrangemang. <b>"</b></i><p> 
+
+						<b>- Amanda Johansson</b> <br>Projektledare, Ung Företagsamhet Västernorrland 
+						
+					</div>
+				</div>
+		
+			
+				<div class="col-lg-6">
+					<div class="referens-area marg-ref-bot">
+					
+						<p><i><b>"</b> Det finns ingen tjej som kan inspirera och peppa så mycket som Giselle! Hon är fantastisk på att se det bästa i varje människa och lyfta fram ens positiva egenskaper. Oavsett vilken bakgrund man har och vad man har för mål i livet så lovar jag att Giselle med sina erfarenheter och kunskaper kan hjälpa vem som helst. <br>Bättre coach finns inte! :) <b>"</b> </i><p> 
+
+						<b>- Cornelia Grundström</b> <br>Grundare & VD på Cornelias Balance 
+						
+					</div>
+				</div>
+			
+		</div>
+	</div>
+
+</section>
+
+<!-- END REFERENS -->
+
+
+
+<!-- NYHETSBREV -->
+<section>
+
+	<div class="nyhetsbrev-style" id="myinspirationsbrev">
+	
+		<div class="container">
+			
+			<h1 class="tjanster-rub">INSPIRATIONSBREV</h1>
+			<hr>
+			<br>
+			<p>Varje söndag så skickar Giselle ut ett inspirerande och peppande nyhetsbrev. <br>Detta nyhetsbrev är till för Dig som vill inspireras och därför uppskattar Giselle alla önskemål som kommer in! <br>Prenumerera idag</p>
+			
+			<div class="col-lg-9 col-md-9">
+				  <input type="text" class="form-control form-style" placeholder="Fyll epostadressen och klicka på prenumera">
+			</div>
+			
+			<div class="col-lg-3 col-md-3">
+				<button type="button" class="btn form-button">Prenumera</button>
+			</div>
+			
+		</div>
+	</div>
+
+</section>
+
+<!-- END NYHETSBREV -->
+
+
+
+<!-- KONTAKT -->
+<section>
+
+	<div class="kontakt-style" id="myinspirationsbrev">
+	
+		<div class="container">
+			
+			<h1 class="referens-rub">KONTAKT</h1>
+			<hr>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			
+			<div class="col-lg-8">
+			
+				<form action="/#.php">
+				  <input type="text" class="form-control form-style" name="firstname" placeholder="Namn..">
+				  <input type="text" class="form-control form-style form-marg" name="lastname" placeholder="Epost adress..">
+				  <textarea class="form-control form-style form-marg" name="areatext" placeholder="Meddelande.."></textarea>
+				  <button type="button" class="btn contact-form-button">Skicka</button>
+				</form>
+			
+			</div>
+			
+			<div class="col-lg-4 contact-text">
+			
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			
+			</div>
+			
+		</div>
+	</div>
+
+</section>
+
+<!-- END NYHETSBREV -->
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+	<!-- jQuery & Boostrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- jQuery & Boostrap -->
+</body>
+
+
+</html>

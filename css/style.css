@@ -1,0 +1,555 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	word-spacing: 0px;
+}
+
+
+.navbar-info {
+    width: 100%;
+    
+    
+}
+.fixed-me{
+    transition: all 10s ;
+}
+
+.fixed-me{
+    background-color:#f3f3f3 !important;
+    padding: 0px  !important;
+    margin-bottom: 0px;
+    position: fixed;
+    top:0;
+	z-index:888;
+    width: 100%;
+    border-bottom: 1px solid #eee !important;
+    
+}
+
+
+.navbar-me {
+    
+   transition: all 1s ;
+   margin: 0px;
+   box-shadow: none;
+   background-color:#f3f3f3 !important;
+}
+.header-right-menu{
+ padding: 15px 15px !important;   
+    
+}
+.site-logo{
+    padding: 20px 20px !important; 
+    margin: 15px 10px !important;
+	font-size: 20px;
+}
+.navbar-me{
+    padding: 10px 0px;
+    background-color: #f3f3f3;
+    top: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+.navbar-collapse{
+    text-align: center;
+    border-top-width: 0px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.menu-collapsed-button{
+    margin: 25px 15px 10px 15px !important;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+
+.jumbotron {
+	height: 700px;
+	background-color: #fff;
+}
+
+
+.jumbotron h1 {
+	color: #444;
+	font-weight: 900;
+	word-spacing: 0px;
+}
+
+.jumbotron p {
+	margin-top: -10px;
+	color: #777;
+	font-weight: 300;
+}
+
+
+.jumbotron-img {
+	background-image: url('../img/img-giselle.jpg');
+	height: 700px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 0px;
+	margin: 0px;
+}
+
+.jumbotron-text {
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	line-height: 50px;
+	
+}
+
+.jumbotron-button {
+	font-size: 14px;
+	padding: 14px 30px;
+	background-color: #fff;
+    color: #333;
+	font-weight: 300;
+    border: 1px solid #3a3a3a;
+	border-radius: 24px;
+}
+
+.jumbotron-button:hover {
+    border: 1px solid #fff;
+	color: #fff;
+	background-color: #53c4b9;
+	text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    	
+	
+	[class*="jumbotron"] {
+        height: 100%;
+    }
+	
+	[class*="jumbotron-img"] {
+        height: 500px;
+    }
+	
+	[class*="jumbotron-text"] {
+        text-align: center;
+		height: 260px;
+    }
+	
+	.jumbotron h1 {
+		line-height: 50px;
+	}
+	
+	.jumbotron p {
+		margin-top: -12px;
+		line-height: 40px;
+		padding: 8px;
+	}
+}
+
+
+@media only screen and (max-width: 680px) {
+    /* For mobile phones: */
+    	
+	
+	[class*="jumbotron"] {
+        height: 100%;
+    }
+	
+	[class*="jumbotron-img"] {
+        height: 300px;
+    }
+	
+	[class*="jumbotron-text"] {
+        text-align: center;
+		height: 240px;
+		padding-left: 10px;
+		padding-right: 10px;
+    }
+	
+	[class*="jumbotron h1"] {
+        margin-bottom: 20px;
+    }
+	
+	[class*="jumbotron p"] {
+        margin-top: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    /* For IPHONE6 phones: */
+    	
+	
+	[class*="jumbotron"] {
+        height: 100%;
+    }
+	
+	[class*="jumbotron-img"] {
+        height: 300px;
+    }
+	
+	[class*="jumbotron-text"] {
+        text-align: center;
+		height: 300px;
+    }
+	
+	[class*="jumbotron h1"] {
+        margin-bottom: 20px;
+    }
+	
+	[class*="jumbotron p"] {
+        margin-top: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    /* For IPHONE5 phones: */
+    	
+	
+	[class*="jumbotron"] {
+        height: 100%;
+    }
+	
+	[class*="jumbotron-img"] {
+        height: 300px;
+    }
+	
+	[class*="jumbotron-text"] {
+        text-align: center;
+		height: 300px;
+    }
+	
+	[class*="jumbotron h1"] {
+        margin-bottom: 210px;
+    }
+	
+	[class*="jumbotron p"] {
+        margin-top: 0px;
+    }
+}
+
+
+
+/* START ABOUT GISELLE */
+
+
+.about-style {
+	border-top: 1px solid #f3f3f3;
+	border-bottom: 1px solid #f3f3f3;
+	background-color: #282828;
+	color: #fff;
+	text-align: center;
+}
+
+.about-style img {
+	width: 300px;
+	height: 300px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	border: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.about-text {
+	width: 80%;
+	margin-bottom: 110px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 26px;
+}
+
+.about-style h1 {
+	clear: both;
+}
+
+.about-style h2 {
+	
+}
+
+
+@media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    	
+	
+	[class*="about-text"] {
+       text-align: center;
+	   margin-right: auto;
+	   margin-left: auto;
+	   margin-bottom: 60px;
+    }
+	
+	.about-style img {
+	}
+	
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    	
+	
+	[class*="about-text"] {
+       text-align: center;
+	   margin-right: auto;
+	   margin-left: auto;
+	   margin-top: 60px;
+	   margin-bottom: 60px;
+    }
+	
+	.about-style img {
+		margin-top: 60px;
+		margin-bottom: 60px;
+		width: 200px;
+		height: 200px;
+	}
+	
+}
+
+
+/* END ABOUT GISELLE */
+
+
+/* START TJANSTER GISELLE */
+
+
+.tjanster-style {
+	background-color: #f9f9f9; /* #009688 */
+	border-bottom: 1px solid #f3f3f3;
+	text-align: center;
+}
+
+.tjanster-style img {
+	width: 140px;
+	height: 140px;
+	margin-top: 40px;
+}
+
+.tjanster-rub {
+	font-size: 30px;
+	color: #888;
+	margin-top: 110px;
+}
+
+.tjanster-title {
+	font-size: 24px;
+	font-weight: bold;
+	color: #444;
+	margin-top: 30px;
+}
+
+.tjanster-text {
+	font-size: 18px;
+	font-weight: 300;
+	color: #222;
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	line-height: 26px;
+}
+
+.tjanster-button {
+	font-size: 14px;
+	padding: 14px 30px;
+    color: #333;
+	font-weight: 300;
+    border: 1px solid #3a3a3a;
+	border-radius: 24px;
+	display: inner-block;
+	margin-bottom: 110px;
+}
+
+.mar-bot {
+	margin-bottom: 100px;
+}
+
+hr {
+	border: 2px solid #53c4b9;
+	width: 80px;
+}
+
+.hr-white {
+	border: 2px solid #fff;
+	width: 80px;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    	
+	
+	[class*="tjanster-text"] {
+       text-align: center;
+	   margin-top: 20px;
+	   margin-left: 10px;
+	   margin-right: 10px;
+	   margin-bottom: 40px;
+    }
+	
+	[class*="tjanster-title"] {
+       text-align: center;
+	   margin-top: 30px;
+	   margin-bottom: 30px;
+    }
+	
+	[class*="mar-bot"] {
+		margin-bottom: 40px;
+    }
+	
+	
+}
+
+
+/* END TJANSTER GISELLE */
+
+
+/* START TJANSTER GISELLE */
+
+
+.referens-style {
+	background-color: #53c4b9; 
+	border-bottom: 1px solid #f3f3f3;
+	text-align: center;
+	color: #fff;
+}
+
+.referens-rub {
+	font-size: 30px;
+	color: #fff;
+	margin-top: 110px;
+}
+
+.referens-slogger {
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+.referens-area {
+	background-color: #45a49b;
+	padding: 40px;
+	margin-top: 50px;
+	text-align: left;
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 26px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.marg-ref-bot {
+	margin-bottom: 110px;
+}
+
+
+/* END TJANSTER GISELLE */
+
+
+
+/* START NYHETSBREV GISELLE */
+
+
+.nyhetsbrev-style {
+	background-color: #f9f9f9; 
+	border-bottom: 1px solid #f3f3f3;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.form-group {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.form-rub {
+	color: #777;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.form-style {
+	padding: 30px;
+	margin-top: 60px;
+}
+
+.form-button {
+	width: 100%;
+	padding: 16px 40px;
+	background-color: #53c4b9;
+	color: #fff;
+	font-size: 18px;
+	float: left;
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 991px) {
+    /* For mobile phones: */
+    	
+	
+	[class*="form-button"] {
+	   margin-top: 20px;
+    }
+}
+/* END NYHETSBREV GISELLE */
+
+
+
+/* START KONTAKT GISELLE */
+
+
+.kontakt-style {
+	background-color: #282828; 
+	border-bottom: 1px solid #f3f3f3;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.form-marg {
+	margin-top: 20px;
+	color: #333;
+}
+
+.contact-form-button {
+	padding: 16px 40px;
+	background-color: #53c4b9;
+	color: #fff;
+	font-size: 18px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.contact-text {
+	text-align: left;
+	margin-top: 60px;
+	margin-bottom: 100px;
+	padding-left: 20px;
+}
